@@ -9,6 +9,10 @@ import utils
 from utils import device
 from model import ACModel
 
+import os
+
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 
 # Parse arguments
 
