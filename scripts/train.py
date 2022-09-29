@@ -11,7 +11,7 @@ from model import ACModel
 
 import os
 
-os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+os.environ["KMP_DUPLICATE_LIB_OK"] = "True"
 
 
 # Parse arguments

@@ -3,6 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions.categorical import Categorical
 import torch_ac
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "True"
 
 
 # Function from https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/model.py
